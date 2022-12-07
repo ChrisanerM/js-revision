@@ -3,7 +3,6 @@
 // filter returns a new array - loops through an array , looking for a particular element USE THIS METHOD
 //. push to add something new into an array
 
-
 // let data = [9, 3, 1, "Peter", 5, 10]; //this array is even therefore we use slice
 // let size = data.length - 1;
 // console.log("Array size:", size);
@@ -17,13 +16,10 @@
 // console.log ("middle element:", data.slice(middleIndex, middleIndex+2));
 //Math method math.trunch (gives us only an integer value)
 
-
 //this array is odd therefore we 'inject' it into a square bracket (data[])
 // let datas = [9, 3, 1, "Peter", 5];
 
-
-
-//STRING 
+//STRING
 // VARIABLE IS LIKE A CONTAINER
 
 // let sentence= "I love programming";
@@ -34,12 +30,12 @@
 
 //Date methods
 
-let myDate = new Date ();
-console.log ("My date:",myDate);
-
+let myDate = new Date();
+let currentDate = myDate.getDate();
+console.log("setdate):", new Date(myDate.setDate(currentDate + 5)));
 
 //HOMEWORK: add 5 days to the current date 29/11/2022   due Friday
-// format to your date part 
+// format to your date part
 
 //if statement
 // let age= 17;
@@ -50,7 +46,6 @@ console.log ("My date:",myDate);
 //     console.log ("You're not qualified");
 // }
 //don't omit your else statement
-
 
 //nested if statement don't use this for project
 //you may have 2 if statements
@@ -79,11 +74,9 @@ console.log ("My date:",myDate);
 //             break;
 // }
 
-
 let grade = 75;
- switch (grade) {
-    case 100:
-        console.log ("Your're awesome")
+switch (grade) {
+  case 100:
+    console.log("Your're awesome");
     break;
-    
- }
+}
